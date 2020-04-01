@@ -6,3 +6,5 @@ disp('a simple sine plot')
     xlabel('theta')
     title('plot created by Dhruva')
     plot(theta, y, 'O')
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

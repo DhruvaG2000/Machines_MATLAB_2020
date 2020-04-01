@@ -1,6 +1,5 @@
 disp('An exponentially decaying sine curve')
 
-
 n = input('10, 50 or 100 points? ');
 switch n
 case 10
@@ -9,20 +8,20 @@ case 10
         y_sin = sin(theta);
         expo = exp( theta.*(-0.4) ) ;
         y = expo.*y_sin;
+        plot(theta, y)
+        title('using 10 points ')
         ylabel('Y')
         xlabel('theta')
-        title('using 10 points ')
-        plot(theta, y);
 case 50
     disp('using 50 points')
         theta = linspace(0, 4*pi, 50);
         y_sin = sin(theta);
         expo = exp( theta.*(-0.4) ) ;
         y = expo.*y_sin;
+        plot(theta, y)
+        title('using 50 points ')
         ylabel('Y')
         xlabel('theta')
-        title('using 50 points ')
-        plot(theta, y);
 
 case 100  
     disp('using 100 points')
@@ -30,9 +29,9 @@ case 100
         y_sin = sin(theta);
         expo = exp( theta.*(-0.4) ) ;
         y = expo.*y_sin;
+        plot(theta, y)
+        title('using 100 points ')
         ylabel('Y')
         xlabel('theta')
-        title('using 100 points ')
-        plot(theta, y);
 
 end 
