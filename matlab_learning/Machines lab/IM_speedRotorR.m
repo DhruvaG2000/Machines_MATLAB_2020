@@ -3,5 +3,5 @@ speed = [1480 1310 1130 1040 850 730 550];
 
 plot(resistance, speed)
 title('Rotor resistance varying speed in IM')
-xlabel('Rotor Resistance in ohms')
-ylabel('Speed in RPM')
+xlabel('Rotor Resistance in ohms -->')
+ylabel('Speed in RPM -->')

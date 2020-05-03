@@ -1,7 +1,7 @@
 function  [IM_input_power DCG_output_power, DCG_ip, IM_efficiency, freq, slip, Nr, Wr, T]  = LoadTest(Vs, Is, Vg, Ig, t, pf)
 %This function is only for 3 Phase Induction MOTOR NOT 
 % 1 - phase!! 
-% use as: [IM_input_power, DCG_output_power, DCG_ip, IM-efficiency, freq, slip, Nr, Wr, T] = 
+% use as: [IM_input_power, DCG_output_power, DCG_ip, IM_efficiency, freq, slip, Nr, Wr, T] = 
 % LoadTest(Vs, Is, Vg, Ig, t, powerfactor)
 %
     IM_input_power   = (Is.*(Vs).*pf).*sqrt(3) ;
